@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dkosmetics | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dkosmetics.css">
+</head>
+<body>
+
+<header id="site-header">
+    <div class="logo-area">
+        <img src="images/logo.png" alt="Dkosmetics logo" class="logo">
+
+        <div class="brand-text">
+            <h1>Dkosmetics</h1>
+            <p class="tagline">Glow with confidence, every single day.</p>
+        </div>
+
+        <div class="header-spacer"></div>
+    </div>
+
+    <nav id="main-nav" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="content" class="center-titles">
+    <h2>Contact Us</h2>
+    <p>
+    Have questions about our lip liners, shades, or wholesale options? Send us a message below.
+    </p>
+
+
+    <form id="contact-form" action="index.html" method="get" novalidate>
+
+        <div class="form-group">
+            <label for="name">Full Name<span>*</span></label>
+            <input type="text" id="name" name="name">
+            <p class="error-message" id="name-error">Please enter your name.</p>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number<span>*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="2045551234">
+            <p class="error-message" id="phone-error">Enter a valid 10-digit phone number.</p>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address<span>*</span></label>
+            <input type="email" id="email" name="email">
+            <p class="error-message" id="email-error">Enter a valid email address.</p>
+        </div>
+
+        <div class="form-group">
+            <label for="comments">Comments or Questions<span>*</span></label>
+            <textarea id="comments" name="comments" rows="5"></textarea>
+            <p class="error-message" id="comments-error">Please enter your message.</p>
+        </div>
+
+        <div class="button-row">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+</main>
+
+<footer id="site-footer">
+    <nav aria-label="Footer navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <p>&copy; 2026 Dkosmetics. All rights reserved.</p>
+</footer>
+
+<script src="dkosmetics.js"></script>
+</body>
+</html>
